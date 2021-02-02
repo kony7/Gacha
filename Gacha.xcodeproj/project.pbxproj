@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9934C41525C8FDA000C48175 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 9934C41425C8FDA000C48175 /* img */; };
 		993F89DB25BC34AA00BD9686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F89DA25BC34AA00BD9686 /* AppDelegate.swift */; };
 		993F89DD25BC34AA00BD9686 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F89DC25BC34AA00BD9686 /* SceneDelegate.swift */; };
 		993F89DF25BC34AA00BD9686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F89DE25BC34AA00BD9686 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		993F89E725BC34AC00BD9686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993F89E525BC34AC00BD9686 /* LaunchScreen.storyboard */; };
 		993F89F225BC34AC00BD9686 /* GachaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F89F125BC34AC00BD9686 /* GachaTests.swift */; };
 		993F89FD25BC34AC00BD9686 /* GachaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F89FC25BC34AC00BD9686 /* GachaUITests.swift */; };
+		993F8A1925BC359A00BD9686 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F8A1825BC359A00BD9686 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9934C41425C8FDA000C48175 /* img */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = img; sourceTree = SOURCE_ROOT; };
 		993F89D725BC34AA00BD9686 /* Gacha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gacha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		993F89DA25BC34AA00BD9686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		993F89DC25BC34AA00BD9686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		993F89F825BC34AC00BD9686 /* GachaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GachaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		993F89FC25BC34AC00BD9686 /* GachaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GachaUITests.swift; sourceTree = "<group>"; };
 		993F89FE25BC34AC00BD9686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993F8A1825BC359A00BD9686 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		993F89D925BC34AA00BD9686 /* Gacha */ = {
 			isa = PBXGroup;
 			children = (
+				9934C41425C8FDA000C48175 /* img */,
 				993F89DA25BC34AA00BD9686 /* AppDelegate.swift */,
 				993F89DC25BC34AA00BD9686 /* SceneDelegate.swift */,
 				993F89DE25BC34AA00BD9686 /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				993F89E325BC34AC00BD9686 /* Assets.xcassets */,
 				993F89E525BC34AC00BD9686 /* LaunchScreen.storyboard */,
 				993F89E825BC34AC00BD9686 /* Info.plist */,
+				993F8A1825BC359A00BD9686 /* ResultViewController.swift */,
 			);
 			path = Gacha;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9934C41525C8FDA000C48175 /* img in Resources */,
 				993F89E725BC34AC00BD9686 /* LaunchScreen.storyboard in Resources */,
 				993F89E425BC34AC00BD9686 /* Assets.xcassets in Resources */,
 				993F89E225BC34AA00BD9686 /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 				993F89DF25BC34AA00BD9686 /* ViewController.swift in Sources */,
 				993F89DB25BC34AA00BD9686 /* AppDelegate.swift in Sources */,
 				993F89DD25BC34AA00BD9686 /* SceneDelegate.swift in Sources */,
+				993F8A1925BC359A00BD9686 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC69669R63;
 				INFOPLIST_FILE = Gacha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC69669R63;
 				INFOPLIST_FILE = Gacha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
