@@ -19,7 +19,7 @@ class PunishmentViewController: UIViewController, UITableViewDataSource,UITableV
 
         // Do any additional setup after loading the view.
         
-        punishmentArray = ["苦い飲み物を飲め","顔に落書き！","オリジナル一発芸","全力でブルゾンちえみ","カエルのものまね","酸っぱい飲み物を飲め","ビンタ","あだ名、改名！","リップを分厚く塗れ","バンジージャンプ","1週間階段2段飛び"]
+        punishmentArray = ["乃木坂公式ページ","最新シングルMV","のぎ動画","Twitter公式","YouTube公式","ブログ"]
         table.delegate = self
         table.dataSource = self
         
@@ -44,6 +44,36 @@ class PunishmentViewController: UIViewController, UITableViewDataSource,UITableV
            
        }
     
+    //セルをタップした時の処理
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        //タップした時の選択色を消す
+        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+
+        // 何番目のセルか？で分岐
+        switch indexPath.row {
+        case 0 :
+            let url = URL(string: "http://blog.nogizaka46.com/")
+            UIApplication.shared.open(url!)
+        case 1 :
+            let url = URL(string: "https://youtu.be/F_WgREJgJhw")
+            UIApplication.shared.open(url!)
+        case 2:
+            let url = URL(string: "https://nogidoga.com/")
+            UIApplication.shared.open(url!)
+        case 3 :
+            let url = URL(string: "https://twitter.com/nogizaka46")
+            UIApplication.shared.open(url!)
+        case 4 :
+            let url = URL(string: "https://www.youtube.com/channel/UCUzpZpX2wRYOk3J8QTFGxDg")
+            UIApplication.shared.open(url!)
+        case 5 :
+            let url = URL(string: "http://blog.nogizaka46.com/")
+            UIApplication.shared.open(url!)
+        default:
+            break
+        }
+        }
     
 
     /*
